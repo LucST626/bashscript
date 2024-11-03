@@ -1,9 +1,10 @@
 #!/bin/bash
 
-# Crear la carpeta 'p5' (si no existe)
+# Crear la carpeta "p5" (si no existe)
 mkdir -p p5
+cd p5
 
-# Crear el archivo HTML dentro de la carpeta 'p5'
+# Crear el archivo HTML dentro de la carpeta "p5"
 cat <<EOL > p5/index.html
 <!DOCTYPE html>
 <html lang="en">
